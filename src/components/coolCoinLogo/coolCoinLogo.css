@@ -1,0 +1,27 @@
+html,
+body,
+.c {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 50ch;
+  height: 50ch;
+  cursor: pointer;
+  will-change: transform, opacity;
+  border-radius: 50%;
+
+  border: 3px solid black;
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+
+.back {
+  background-image: url(../../assets/maghi-logo.svg);
+}
+
+.front {
+  background-image: url(../../assets/profile-pic.webp);
+}
