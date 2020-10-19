@@ -1,0 +1,24 @@
+.nav-wrapper {
+  position: fixed;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: teal;
+  z-index: 99;
+}
+.nav-wrapper > nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-wrapper > a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  margin: 30px;
+}
