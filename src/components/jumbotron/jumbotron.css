@@ -5,7 +5,9 @@
   height: 500px;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-image: url(../../assets/wavey-fingerprint.svg);
+  background-image: url(../../assets/diamonds-background..svg);
+  position: relative;
+  box-shadow: 5px 5px 10em #333;
   z-index: 97;
 }
 
@@ -19,7 +21,7 @@
   padding-top: 0px;
 }
 .jumbotron-h1 {
-  padding-top:20px;
+  padding-top: 20px;
 }
 .jumbotron-h2 {
   text-shadow: white 0px 0px 10px;
@@ -34,7 +36,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 98;
 }
-
-.button-menu {
-  color: white;
+.social-icon {
+  margin-left: 10px;
+  margin-right: 10px;
 }
