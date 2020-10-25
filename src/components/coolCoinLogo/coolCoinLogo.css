@@ -1,13 +1,14 @@
 .c {
   position: fixed;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
   width: 50ch;
   height: 50ch;
   cursor: pointer;
   will-change: transform, opacity;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0.5px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .front,

@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
   font-family: "Poppins";
 }
+h2 {
+  font-size: 28px;
+  color: black;
+}
 .button-menu {
   position: absolute;
   font-weight: bold;
