@@ -12,9 +12,15 @@ function NavigationBar({ toggled }) {
       style={{ transform: x.interpolate((x) => `translate3d(${x * -1}%,0,0)`) }}
     >
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
+        <a className="nav-item" href="#">
+          Home
+        </a>
+        <a className="nav-item" href="#">
+          About
+        </a>
+        <a className="nav-item"  href="#">
+          Projects
+        </a>
       </nav>
     </animated.div>
   );

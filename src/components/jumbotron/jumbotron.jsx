@@ -20,10 +20,9 @@ function Jumbotron() {
   return (
     <div className="jumbobox">
       <div className="jumbobox-image">
-        <br />
-        <h1>Marino Gómez</h1>
+        <h1 className="jumbotron-h1">Marino Gómez</h1>
 
-        <div className="logo-container">
+        <div className="logo-container" title="Click Me!!!">
           <animated.div
             onMouseMove={({ clientX: x, clientY: y }) =>
               set({ xys: calc(x, y) })
@@ -34,8 +33,9 @@ function Jumbotron() {
             <CoolCoinLogo />
           </animated.div>
         </div>
-        <br />
-        <h2>Im just a Developer with a code launcher.</h2>
+        <h2 className="jumbotron-h2">
+          Im just a Developer with a code launcher.
+        </h2>
       </div>
     </div>
   );

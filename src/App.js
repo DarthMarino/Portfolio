@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Jumbotron from "./components/jumbotron/jumbotron";
 import NavigationBar from "./components/navigationBar/navigationBar";
+import { Squash as Hamburger, Squash } from "hamburger-react";
 
 function App() {
   const [isToggled, setIsToggled] = useState(false);
@@ -11,8 +12,8 @@ function App() {
   return (
     <>
       <NavigationBar toggled={isToggled} />
-      <button className="button-menu" onClick={toggleHandler}>
-        &#9776;
+      <button title="Open Menu" className="button-menu" onClick={toggleHandler}>
+        <Squash rounded label="Show menu" size={45} />
       </button>
       <Jumbotron />
     </>
