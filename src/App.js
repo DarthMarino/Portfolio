@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import Jumbotron from "./components/jumbotron/jumbotron";
 import NavigationBar from "./components/navigationBar/navigationBar";
-import Biography from "./components/about-me/biography";
+import Biography from "./components/aboutMe/biography";
+import ProjectBox from "./components/projectBox/project-box";
 import { Squash as Hamburger } from "hamburger-react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </button>
       <Jumbotron />
       <Biography />
+      <ProjectBox />
     </>
   );
 }

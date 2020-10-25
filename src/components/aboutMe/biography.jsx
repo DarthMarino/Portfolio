@@ -1,5 +1,4 @@
 import React from "react";
-import CoolCoinLogo from "../coolCoinLogo/coolCoinLogo";
 import { useSpring, animated } from "react-spring";
 import "./biography.css";
 
