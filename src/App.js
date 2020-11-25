@@ -5,6 +5,7 @@ import NavigationBar from "./components/navigationBar/navigationBar";
 import Biography from "./components/aboutMe/biography";
 import ProjectBox from "./components/projectBox/project-box";
 import { Squash as Hamburger } from "hamburger-react";
+import Gallery from "./components/gallery/gallery";
 
 function App() {
   const [isToggled, setIsToggled] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <Jumbotron />
       <Biography />
       <ProjectBox />
+      <Gallery />
     </>
   );
 }
