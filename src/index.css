@@ -14,8 +14,8 @@ h2 {
 }
 .button-menu {
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 15px;
+  right: 15px;
   cursor: pointer;
   z-index: 100;
   background-color: transparent;

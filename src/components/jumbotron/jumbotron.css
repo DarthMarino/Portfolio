@@ -14,8 +14,8 @@
 .logo-container {
   position: center;
   margin: auto;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   will-change: transform;
   padding-bottom: 60px;
   padding-top: 0px;
@@ -23,20 +23,34 @@
 .jumbotron-h1 {
   padding-top: 20px;
 }
-.jumbotron-h2 {
-  text-shadow: white 0px 0px 10px;
-}
-.jumbobox .jumbobox-image {
-  position: relative;
-  border-radius: 15px;
-  margin: auto;
-  width: 70%;
-  height: 100%;
-  background-image: url(../../assets/glacier.jpg);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 98;
-}
+
 .social-icon {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.bio-p {
+  text-shadow: white 0px 0px 8px;
+  font-size: 25px;
+}
+
+.cool-gradient {
+  background: linear-gradient(
+    to left,
+    #000 20%,
+    #494f9c 30%,
+    #dac444 70%,
+    #000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 5s ease-in infinite;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
 }
