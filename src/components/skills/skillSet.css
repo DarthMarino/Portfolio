@@ -1,16 +1,54 @@
-.script-box {
-  will-change: width, height, left, top;
-  position: relative;
+.skill-container {
+  padding-top: 10%;
 }
-.Container {
+.main {
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(100px, 1fr));
-  grid-gap: 25px;
-  padding: 25px;
-  background: white;
-  border-radius: 5px;
+  width: 500px;
+  height: 50px;
+  background: #272727;
   cursor: pointer;
-  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.05);
-  will-change: width, height;
+  border-radius: 5px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.fill-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: yellow;
+}
+
+.fill-rb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 68, 68);
+}
+
+.fill-mongo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: limegreen;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }

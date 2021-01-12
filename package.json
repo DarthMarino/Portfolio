@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "resize-observer-polyfill": "^1.5.1"
   }
 }
